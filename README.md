@@ -10,18 +10,18 @@ Apache 2.0 License
 
 A Special Thanks to the following corporations for their support:
 
--   [Hellebore Consulting Group](http://www.hellebore.com)
--   [Araxis](https://www.araxis.com/)
--   [Axosoft](https://www.gitkraken.com/)
+-   [Polyrhythm Software](http://www.polyrhythm.com)
+-   [Araxis (Merge)](https://www.araxis.com/)
+-   [Axosoft (GitKraken)](https://www.gitkraken.com/)
 -   [Microsoft](https://www.microsoft.com)
 
 #### Builds and Testing
 
 Celero has been successfully built on the following platforms during development.
 
-- GCC v6.0.0, v14.20.0
-- LLVM v5.0.1, v20.0.0
-- Visual Studio 2019 (16.8.4), Visual Studio 2022 (17.6.x)
+- GCC v9-v11
+- LLVM v12-v13
+- Visual Studio 2022
 - XCode v10.1, v12.0
 
 As of v2.7, Celero requires the developer to provide GoogleTest in order to build unit tests.  We suggest using a package manager such as VCPKG or Conan to provide the latest version of the library.
